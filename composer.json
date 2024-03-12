@@ -1,0 +1,39 @@
+{
+    "name": "pramod/module-customerimport",
+    "description": "Importing customer from CSV, JSON etc. files.",
+    "keywords": [
+        "Magento 2 module",
+        "Magento 2 customer import",
+        "Customer import using csv",
+        "Customer import using json",
+        "Customerimport",
+        "Csvimport",
+        "Jsonimport magento 2"
+    ],
+    "type": "magento2-module",
+    "license": "proprietary",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Pramod Gupta",
+            "email": "pramod@gmail.com",
+            "role": "devloper"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "preferred-install": "dist",
+        "platform": {
+            "php": "~8.1.0||~8.2.0",
+            "magento/framework": "103.0.6"
+        }
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Pramod\\CustomerImport\\": ""
+        }
+    }
+}
