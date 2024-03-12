@@ -21,12 +21,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "config": {
-        "preferred-install": "dist",
-        "platform": {
-            "php": "~8.1.0||~8.2.0",
-            "magento/framework": "103.0.6"
-        }
+    "require": {
+        "php": "~8.1.0||~8.2.0",
+        "magento/framework": "103.0.6"
     },
     "autoload": {
         "files": [
