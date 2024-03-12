@@ -1,5 +1,5 @@
 {
-    "name": "pramod/module-customerimport",
+    "name": "santoshmagentodev/module-customerimport",
     "description": "Importing customer from CSV, JSON etc. files.",
     "keywords": [
         "Magento 2 module",
